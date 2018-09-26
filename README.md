@@ -36,4 +36,5 @@ Known Issues:
 Requiremets:
 Decal
 Vtank
+Mag-Tools
 Mag-Filter https://github.com/Mag-nus/Mag-Plugins/releases
