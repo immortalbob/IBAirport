@@ -1,0 +1,12 @@
+Changelog:
+Version 1.2
+-Added checks and error messages for no skill/low skill, foci, components, and spells learned.
+
+Version 1.1b
+-Changed whereto output to 4 lines to avoid sending too many characters to the chatbox.
+
+Version 1.1
+-Made spam timer, and beg for comps timer easily editable. (must restart meta for changes to take effect)
+
+Version 1.0
+-Initial Release
