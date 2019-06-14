@@ -1,4 +1,8 @@
 Changelog:
+Version 1.3
+-UsePassword variable added, set to always/never to use it.
+-Password variable added, set it to a text only password if you wish to use a password.
+
 Version 1.2
 -Added checks and error messages for no skill/low skill, foci, components, and spells learned.
 
