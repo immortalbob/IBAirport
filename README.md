@@ -10,10 +10,10 @@ Example: setvar[CharacterOne, Immortalbob]
 Example: setvar[COnePOne, ayan]
 3. on line 4 of the meta are the friendly names, please match these to the char list (COnePri = Character one Primary)
 Example: setvar[COnePri, Ayan Baqur]
-4. lines 5 and 6 are for the headings that the portals will be summoned. They are using random numbers so if you have your bots all stacked on the same spot they wont summon portals right on top of the last portal summoned (most of the time).
-5. lines 7 and 8 are your spam timer and beg for comps timer, these are both in seconds. Standard value is 30 minutes (1800) for spam, and 2 minutes (120) to beg for comps.
-6. lines 9 and 10 are for password restricted access. enable usepassword and change the password in the next line.
-
+4. on line 5 is the meta file name, if you wish to use multiple bots on the same computer, they will need their own meta file with a unique name. Do not use numbers, spaces, or symbols in the file name.
+5. lines 6 and 7 are for the headings that the portals will be summoned. They are using random numbers so if you have your bots all stacked on the same spot they wont summon portals right on top of the last portal summoned (most of the time).
+5. lines 8 and 9 are your spam timer and beg for comps timer, these are both in seconds. Standard value is 30 minutes (1800) for spam, and 2 minutes (120) to beg for comps.
+6. lines 10 and 11 are for password restricted access. enable usepassword and change the password in the next line.
 
 Headings explained:
 0/360 = N
