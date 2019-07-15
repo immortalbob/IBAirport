@@ -17,7 +17,7 @@ i
 i
 0
 s
-     %% IBAirport Version 1.4.0 %%
+     %% IBAirport Version 1.4.1 %%
 i
 0
 s
@@ -2070,7 +2070,7 @@ n
 s
 e
 s
-\/mf alcmq add \/vt setmetastate newloginprimary
+\/mf alcmq add \/vt setmetastate newloginsecondary
 i
 8
 TABLE

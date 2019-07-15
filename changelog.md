@@ -1,4 +1,7 @@
 Changelog:
+Version 1.4.1
+-Bugfix, will now actually summon secondary portals...
+
 Version 1.4
 -MetaFileName added to edit here state. This is so you can use multiple bots on the same computer. Rename the file for each account, and put the name in this variable so it loads the correct meta.
 
