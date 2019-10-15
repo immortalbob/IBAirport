@@ -1,0 +1,603 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Condition_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Condition_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="State" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <table>
+    <Condition_x0020_Type>ChatMessage</Condition_x0020_Type>
+    <Action_x0020_Type>None</Action_x0020_Type>
+    <Condition_x0020_Data>     %% IBAirport Version 1.4.1 %%</Condition_x0020_Data>
+    <Action_x0020_Data>0</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[CharacterOne, Avor Magic]}ExpressionAct{setvar[CharacterTwo, Basharan the Hunter]}ExpressionAct{setvar[CharacterThree, Divani]}ExpressionAct{setvar[CharacterFour, Divani Zen]}ExpressionAct{setvar[CharacterFive, Divani Portal]}ExpressionAct{setvar[CharacterSix, Man n Black]}ExpressionAct{setvar[CharacterSeven, Portal Somewhere]}ExpressionAct{setvar[CharacterEight, Portals A-Go-Go]}ExpressionAct{setvar[CharacterNine, Portals R Us]}ExpressionAct{setvar[CharacterTen, The Last Portal Bot]}ExpressionAct{setvar[CharacterEleven, The Original Portal Bot]}</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[COnePOne, stone]}ExpressionAct{setvar[COnePTwo, bridge]}ExpressionAct{setvar[CTwoPOne, fort]}ExpressionAct{setvar[CTwoPTwo, PotB]}ExpressionAct{setvar[CThreePOne, wj]}ExpressionAct{setvar[CThreePTwo, bore]}ExpressionAct{setvar[CFourPOne, candeth]}ExpressionAct{setvar[CFourPTwo, crater]}ExpressionAct{setvar[CFivePOne, tbd]}ExpressionAct{setvar[CFivePTwo, ohn]}ExpressionAct{setvar[CSixPOne, eo]}ExpressionAct{setvar[CSixPTwo, rv]}ExpressionAct{setvar[CSevenPOne, metos]}ExpressionAct{setvar[CSevenPTwo, bdc]}ExpressionAct{setvar[CEightPOne, ayan]}ExpressionAct{setvar[CEightPTwo, bandit]}ExpressionAct{setvar[CNinePOne, vodls]}ExpressionAct{setvar[CNinePTwo, dvod]}ExpressionAct{setvar[CTenPOne, hilltop]}ExpressionAct{setvar[CTenPTwo, shore]}ExpressionAct{setvar[CElevenPOne, gman]}ExpressionAct{setvar[CElevenPTwo, on]}</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[COnePri, Focusing Stone \(Mines of Despair\)]}ExpressionAct{setvar[COneSec, Southern Landbridge]}ExpressionAct{setvar[CTwoPri, Beach Fort]}ExpressionAct{setvar[CTwoSec, Path of the Blind]}ExpressionAct{setvar[CThreePri, Wai Jhou]}ExpressionAct{setvar[CThreeSec, Singularity Bore]}ExpressionAct{setvar[CFourPri, Candeth Keep]}ExpressionAct{setvar[CFourSec, Crater Village]}ExpressionAct{setvar[CFivePri, TBD]}ExpressionAct{setvar[CFiveSec, Olthoi Horde Nest \(L\2\0\)]}ExpressionAct{setvar[CSixPri, Egg Orchard]}ExpressionAct{setvar[CSixSec, Ravenous Vault]}ExpressionAct{setvar[CSevenPri, Halls of Metos \(GY\)]}ExpressionAct{setvar[CSevenSec, Black Death Catacombs]}ExpressionAct{setvar[CEightPri, Ayan Baqur \(Panopticon\)]}ExpressionAct{setvar[CEightSec, Bandit Castle]}ExpressionAct{setvar[CNinePri, VOD Lifestone]}ExpressionAct{setvar[CNineSec, Deep VOD]}ExpressionAct{setvar[CTenPri, Withered Hilltop]}ExpressionAct{setvar[CTenSec, Withered Shore]}ExpressionAct{setvar[CElevenPri, Gaerlan \(Artifice Cottages\)]}ExpressionAct{setvar[CElevenSec, Olthoi North \(Far Claw Villas\)]}</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[MetaFileName, ibairport]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[HeadingOne, randint[200, 250]]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[HeadingTwo, randint[290, 340]]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Spam Timer, 1800]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Beg for Comps Timer, 120]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Never</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[UsePassword, true]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Password, CHANGEME]</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ChatMessage</Condition_x0020_Type>
+    <Action_x0020_Type>None</Action_x0020_Type>
+    <Condition_x0020_Data>      DO NOT EDIT PAST HERE</Condition_x0020_Data>
+    <Action_x0020_Data>0</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>istrue[getvar[NewLogin]]</Condition_x0020_Data>
+    <Action_x0020_Data>Summon</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>istrue[getvar[UsePassword]]</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[PasswordToggle, true]}SetState{Check Password}</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>*** Main Loop ***</Action_x0020_Data>
+    <State>*** Edit Here ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{istrue[getvar[UsePassword]]}Expression{istrue[getvar[PasswordToggle]]}</Condition_x0020_Data>
+    <Action_x0020_Data>Check Password</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[Time Elapsed, stopwatchcreate[]]}ExpressionAct{stopwatchstart[getvar[Time Elapsed]]}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ChatMessageCapture{^&lt;Tell:IIDString:.+:(?&lt;name&gt;.*)\&gt;.+\&lt;\\Tell\&gt; (says|tells you), \"(?&lt;request&gt;.*)\"$;}Any{Expression: {getvar[capturegroup_request]==getvar[COnePOne]}Expression: {getvar[capturegroup_request]==getvar[COnePTwo]}Expression: {getvar[capturegroup_request]==getvar[CTwoPOne]}Expression: {getvar[capturegroup_request]==getvar[CTwoPTwo]}Expression: {getvar[capturegroup_request]==getvar[CThreePOne]}Expression: {getvar[capturegroup_request]==getvar[CThreePTwo]}Expression: {getvar[capturegroup_request]==getvar[CFourPOne]}Expression: {getvar[capturegroup_request]==getvar[CFourPTwo]}Expression: {getvar[capturegroup_request]==getvar[CFivePOne]}Expression: {getvar[capturegroup_request]==getvar[CFivePTwo]}Expression: {getvar[capturegroup_request]==getvar[CSixPOne]}Expression: {getvar[capturegroup_request]==getvar[CSixPTwo]}Expression: {getvar[capturegroup_request]==getvar[CSevenPOne]}Expression: {getvar[capturegroup_request]==getvar[CSevenPTwo]}Expression: {getvar[capturegroup_request]==getvar[CEightPOne]}Expression: {getvar[capturegroup_request]==getvar[CEightPTwo]}Expression: {getvar[capturegroup_request]==getvar[CNinePOne]}Expression: {getvar[capturegroup_request]==getvar[CNinePTwo]}Expression: {getvar[capturegroup_request]==getvar[CTenPOne]}Expression: {getvar[capturegroup_request]==getvar[CTenPTwo]}Expression: {getvar[capturegroup_request]==getvar[CElevenPOne]}Expression: {getvar[capturegroup_request]==getvar[CElevenPTwo]}}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[Request, getvar[capturegroup_request]]}SetState{Check Request}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ChatMessageCapture</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>^&lt;Tell:IIDString:.+:(?&lt;name&gt;.*)\&gt;.+\&lt;\\Tell\&gt; (says|tells you), \"whereto\"$;</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/t +getvar[capturegroup_name]+\, Commands are as follows\: +getvar[COnePOne]+\ \(+getvar[COnePri]+\)\, +getvar[COnePTwo]+\ \(+getvar[COneSec]+\)\, +getvar[CTwoPOne]+\ \(+getvar[CTwoPri]+\)\, +getvar[CTwoPTwo]+\ \(+getvar[CTwoSec]+\)\, +getvar[CThreePOne]+\ \(+getvar[CThreePri]+\)}ChatWithExpression{\/t +getvar[capturegroup_name]+\, +getvar[CThreePTwo]+\ \(+getvar[CThreeSec]+\)\, +getvar[CFourPOne]+\ \(+getvar[CFourPri]+\)\, +getvar[CFourPTwo]+\ \(+getvar[CFourSec]+\)\, +getvar[CFivePOne]+\ \(+getvar[CFivePri]+\)\, +getvar[CFivePTwo]+\ \(+getvar[CFiveSec]+\)}ChatWithExpression{\/t +getvar[capturegroup_name]+\, +getvar[CSixPOne]+\ \(+getvar[CSixPri]+\)\, +getvar[CSixPTwo]+\ \(+getvar[CSixSec]+\)\, +getvar[CSevenPOne]+\ \(+getvar[CSevenPri]+\)\, +getvar[CSevenPTwo]+\ \(+getvar[CSevenSec]+\)\, +getvar[CEightPOne]+\ \(+getvar[CEightPri]+\)}ChatWithExpression{\/t +getvar[capturegroup_name]+\, +getvar[CEightPTwo]+\ \(+getvar[CEightSec]+\)\, +getvar[CNinePOne]+\ \(+getvar[CNinePri]+\)\, +getvar[CNinePTwo]+\ \(+getvar[CNineSec]+\)\, +getvar[CTenPOne]+\ \(+getvar[CTenPri]+\)\, +getvar[CTenPTwo]+\ \(+getvar[CTenSec]+\)\, +getvar[CElevenPOne]+\ \(+getvar[CElevenPri]+\)\, +getvar[CElevenPTwo]+\ \(+getvar[CElevenSec]+\)}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ChatMessageCapture</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>^&lt;Tell:IIDString:.+:(?&lt;name&gt;.*)\&gt;.+\&lt;\\Tell\&gt; (says|tells you), \"help\"$;</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/t +getvar[capturegroup_name]+\, Say \"whereto\" for a list of portals I can summon\.}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ChatMessageCapture</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>^(?&lt;name&gt;.*) (gives you) (?&lt;item&gt;.*)\.$;</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/s Thanks for the +getvar[capturegroup_item]+\, +getvar[capturegroup_name]+\.}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ItemCountLE{Prismatic Taper;20}Expression{stopwatchelapsedseconds[getvar[Time Elapsed]]&gt;=getvar[Beg for Comps Timer]}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/s I seem to be out of Prismatic Tapers, help a bot out will ya?}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ItemCountLE{Silver Scarab;3}Expression{stopwatchelapsedseconds[getvar[Time Elapsed]]&gt;=getvar[Beg for Comps Timer]}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/s I seem to be out of Silver Scarabs, help a bot out will ya?}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>stopwatchelapsedseconds[getvar[Time Elapsed]]&gt;=getvar[Spam Timer]</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/s I am a portal bot running IBAirport (1.2), say "whereto" for a list of portals I can summon. -b-}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>SecondsInStateGE{60}Expression{istrue[getvar[UsePassword]]}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/t +getvar[capturegroup_name]+\, Your \6\0 seconds are up\, please input the password again\.}ExpressionAct{setvar[PasswordToggle, true]}</Action_x0020_Data>
+    <State>*** Main Loop ***</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[Login]}</Condition_x0020_Data>
+    <Action_x0020_Data>Summon</Action_x0020_Data>
+    <State>Check Character</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]!=getvar[Login]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/mf lnc set +getvar[Login]}ChatCommand{/s The requested portal is on another character.}ChatWithExpression{\/mf alcmq add \/vt meta load +getvar[MetaFileName]}ChatWithExpression{\/mf alcmq add \/vt setmetastate newloginprimary}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt opt set enablemeta true}SetState{Log Out}</Action_x0020_Data>
+    <State>Check Character</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]!=getvar[Login]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/mf lnc set +getvar[Login]}ChatCommand{/s The requested portal is on another character.}ChatWithExpression{\/mf alcmq add \/vt meta load +getvar[MetaFileName]}ChatWithExpression{\/mf alcmq add \/vt setmetastate newloginsecondary}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt start}ChatWithExpression{\/mf alcmq add \/vt opt set enablemeta true}SetState{Log Out}</Action_x0020_Data>
+    <State>Check Character</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ChatMessageCapture{^&lt;Tell:IIDString:.+:(?&lt;name&gt;.*)\&gt;.+\&lt;\\Tell\&gt; (tells you), \"(?&lt;Password&gt;.*)\"$;}Expression{getvar[capturegroup[Password]==getvar[Password]}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/t +getvar[capturegroup_name]+\, Password Accepted\, I am now ready to accept commands\.}ExpressionAct{setvar[PasswordToggle, false]}SetState{*** Main Loop ***}</Action_x0020_Data>
+    <State>Check Password</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ChatMessageCapture{^&lt;Tell:IIDString:.+:(?&lt;name&gt;.*)\&gt;.+\&lt;\\Tell\&gt; (tells you), \"(?&lt;Password&gt;.*)\"$;}Expression{getvar[capturegroup[Password]!=getvar[Password]}</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/t +getvar[capturegroup_name]+\, Access Denied\.}SetState{Check Password}</Action_x0020_Data>
+    <State>Check Password</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[COnePOne]==getvar[Request]}Expression{getvar[CTwoPOne]==getvar[Request]}Expression{getvar[CThreePOne]==getvar[Request]}Expression{getvar[CFourPOne]==getvar[Request]}Expression{getvar[CFivePOne]==getvar[Request]}Expression{getvar[CSixPOne]==getvar[Request]}Expression{getvar[CSevenPOne]==getvar[Request]}Expression{getvar[CEightPOne]==getvar[Request]}Expression{getvar[CNinePOne]==getvar[Request]}Expression{getvar[CTenPOne]==getvar[Request]}Expression{getvar[CElevenPOne]==getvar[Request]}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[Primary, 1]}</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[COnePTwo]==getvar[Request]}Expression{getvar[CTwoPTwo]==getvar[Request]}Expression{getvar[CThreePTwo]==getvar[Request]}Expression{getvar[CFourPTwo]==getvar[Request]}Expression{getvar[CFivePTwo]==getvar[Request]}Expression{getvar[CSixPTwo]==getvar[Request]}Expression{getvar[CSevenPTwo]==getvar[Request]}Expression{getvar[CEightPTwo]==getvar[Request]}Expression{getvar[CNinePTwo]==getvar[Request]}Expression{getvar[CTenPTwo]==getvar[Request]}Expression{getvar[CElevenPTwo]==getvar[Request]}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[Secondary, 1]}</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[COnePOne]}Expression{getvar[Request]==getvar[COnePTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterOne]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CTwoPOne]}Expression{getvar[Request]==getvar[CTwoPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterTwo]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CThreePOne]}Expression{getvar[Request]==getvar[CThreePTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterThree]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CFourPOne]}Expression{getvar[Request]==getvar[CFourPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterFour]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CFivePOne]}Expression{getvar[Request]==getvar[CFivePTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterFive]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CSixPOne]}Expression{getvar[Request]==getvar[CSixPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterSix]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CSevenPOne]}Expression{getvar[Request]==getvar[CSevenPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterSeven]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CEightPOne]}Expression{getvar[Request]==getvar[CEightPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterEight]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CNinePOne]}Expression{getvar[Request]==getvar[CNinePTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterNine]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CTenPOne]}Expression{getvar[Request]==getvar[CTenPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterTen]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ExpressionAct</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Request]==getvar[CElevenPOne]}Expression{getvar[Request]==getvar[CElevenPTwo]}</Condition_x0020_Data>
+    <Action_x0020_Data>setvar[Login, getvar[CharacterEleven]]</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>Check Character</Action_x0020_Data>
+    <State>Check Request</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getisspellknown[157]==0}</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, I need to learn Summon Primary Portal I\, if I wish to summon it\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getisspellknown[2648]==0}</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, I need to learn Summon Secondary Portal I\, if I wish to summon it\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Foci of Artifice;0</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, I need a Foci of Artifice\, if I wish to summon portals\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>getcharskill_traininglevel[32]&lt;=1</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, I need to train Item Enchantment\, if I wish to summon portals\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>getcharskill_buffed[32]&lt;=230</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, My Item Enchantment skill might be too low to summon portals\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>ItemCountLE{Silver Scarab;0}ItemCountLE{Prismatic Taper;3}</Condition_x0020_Data>
+    <Action_x0020_Data>\/t +getcharstringprop[1]+\, I am out of Silver Scarabs, or Prismatic Tapers\, and cannot summon portals\.</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>SetVTOption{idlepeacemode;false}SetState{*** Edit Here ***}</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>SecondsInStateGE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>2</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/mt logout}</Action_x0020_Data>
+    <State>Log Out</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[NewLogin, 1]}ExpressionAct{setvar[Primary, 1]}SetState{Default}</Action_x0020_Data>
+    <State>newloginprimary</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{setvar[NewLogin, 1]}ExpressionAct{setvar[Secondary, 1]}SetState{Default}</Action_x0020_Data>
+    <State>newloginsecondary</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>getvar[Primary]==1</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/mt face +cstr[getvar[HeadingOne]]}</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Primary]==1}SecondsInStateGE{3}</Condition_x0020_Data>
+    <Action_x0020_Data>\/mt combatstate magic</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Primary]==1}SecondsInStateGE{5}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{actiontrycastbyid[157]}ExpressionAct{actiontrycastbyid[157]}ExpressionAct{actiontrycastbyid[157]}</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Expression</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>getvar[Secondary]==1</Condition_x0020_Data>
+    <Action_x0020_Data>ChatWithExpression{\/mt face +cstr[getvar[HeadingTwo]]}</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Secondary]==1}SecondsInStateGE{3}</Condition_x0020_Data>
+    <Action_x0020_Data>\/mt combatstate magic</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getvar[Secondary]==1}SecondsInStateGE{5}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{actiontrycastbyid[2648]}ExpressionAct{actiontrycastbyid[2648]}ExpressionAct{actiontrycastbyid[2648]}</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>SecondsInStateGE{10}</Condition_x0020_Data>
+    <Action_x0020_Data>ExpressionAct{clearallvars[]}ChatCommand{/mt combatstate peace}SetState{Default}</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterOne]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[COnePri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterOne]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[COneSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterTwo]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CTwoPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterTwo]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CTwoSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterThree]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CThreePri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterThree]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CThreeSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterFour]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CFourPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterFour]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CFourSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterFive]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CFivePri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterFive]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CFiveSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterSix]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CSixPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterSix]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CSixSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterSeven]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CSevenPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterSeven]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CSevenSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterEight]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CEightPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterEight]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CEightSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterNine]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CNinePri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterNine]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CNineSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterTen]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CTenPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterTen]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CTenSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterEleven]}Expression{getvar[Primary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CElevenPri]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>ChatWithExpression</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==getvar[CharacterEleven]}Expression{getvar[Secondary]==1}</Condition_x0020_Data>
+    <Action_x0020_Data>\/s I am now summoning +getvar[CElevenSec]+\.</Action_x0020_Data>
+    <State>Summon</State>
+  </table>
+</NewDataSet>
